@@ -69,6 +69,10 @@ app.get('/personal-references', (req, res) => {
     res.json(personalReferences);
 });
 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
 app.listen(port, () => {
     console.log(`Web service listening at http://localhost:${port}`);
 });
