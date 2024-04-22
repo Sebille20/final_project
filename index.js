@@ -1,21 +1,10 @@
-// const path = require('path');
-// const express = require('express');
-// const app = express();
-// const port = 3000;
-
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'index.html'));
-// });
-
-// app.listen(port, () => {
-//     console.log(`Web service listening at http://localhost:${port}`);
-// });
 const path = require('path');
 const express = require('express');
-const bodyParser = require('body-parser');
-
 const app = express();
 const port = 3000;
+
+// Set the folder where static files are located
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Sample data (replace with actual data)
 let personalInfo = {
@@ -36,14 +25,13 @@ let workExperience = [
 ];
 
 let education = [
-    { school: "University of Southern Philippines Foundation", year: "present" }
+    { school: "Immaculata", year: "2008", address: "Bohol" },
+    { school: "University of Southern Philippines Foundation", year: "present", address: "Cebu" }
 ];
 
 let personalReferences = [
     { name: "Jane ", relationship: "Colleague", contactNumber: "987-654-3210" }
 ];
-
-app.use(bodyParser.json());
 
 // Endpoint for personal information
 app.get('/personal-info', (req, res) => {
