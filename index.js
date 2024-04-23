@@ -25,7 +25,7 @@ let workExperience = [
 ];
 
 let education = [
-    { school: "Baclayon Central Elementary School", year: "2011", address: "Bohol" },
+    { school: "uspf", year: "2011", address: "Bohol" },
     { school: "Immaculata", year: "2015", address: "Bohol" },
     { school: "University of Southern Philippines Foundation", year: "present", address: "Cebu" }
 ];
