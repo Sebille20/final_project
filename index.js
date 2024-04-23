@@ -7,13 +7,13 @@ const port = 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Sample data (replace with actual data)
-let personalInfo = {
+let personalInfo =[ {
     name: "Alice Optina",
     birthDate: "1998-06-21",
     gender: "Female",
     contactNo: "09951405048",
     address: "Mabolo Cebu City"
-};
+}];
 
 let skills = [
     { description: "Web Development", expertiseLevel: "Advanced" },
@@ -64,6 +64,6 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Web service listening at http://localhost:${port}`);
+    console.log(`Web service listening at http://localhost:${3000}`);
 });
 
