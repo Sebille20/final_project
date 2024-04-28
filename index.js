@@ -1,13 +1,13 @@
-const path = require('path');
+//const path = require('path');
 const express = require('express');
 const app = express();
 const port = 3000;
 
 // Set the folder where static files are located
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
 
 // Sample data (replace with actual data)
-let personalInfo =[ {
+let personalInfo = [{
     name: "Alice Optina",
     birthDate: "1998-06-21",
     gender: "Female",
@@ -59,9 +59,9 @@ app.get('/personal-references', (req, res) => {
     res.json(personalReferences);
 });
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
-});
+// app.get('/', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'index.html'));
+// });
 
 app.listen(port, () => {
     console.log(`Web service listening at http://localhost:${3000}`);
