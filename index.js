@@ -1,10 +1,14 @@
 //const path = require('path');
+const cors = require('cors'); // Import the cors middleware
 const express = require('express');
 const app = express();
 const port = 3000;
 
 // Set the folder where static files are located
 //app.use(express.static(path.join(__dirname, 'public')));
+
+// Use CORS with default settings to allow cross-origin requests
+app.use(cors());
 
 // Sample data (replace with actual data)
 let personalInfo = [{
