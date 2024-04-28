@@ -16,7 +16,12 @@ let personalInfo = [{
     birthDate: "1998-06-21",
     gender: "Female",
     contactNo: "09951405048",
-    address: "Mabolo Cebu City"
+    address: "Mabolo Cebu City",
+    objective: "To be able chuchu",
+    personalImg: "https://www.nylabone.com/-/media/project/oneweb/nylabone/images/dog101/activities-fun/10-great-small-dog-breeds/maltese-portrait.jpg",
+    objectiveIcon: "https://cdn4.iconfinder.com/data/icons/eldorado-user/40/user-128.png",
+    phoneIcon: "http://icons.iconarchive.com/icons/icons8/android/512/Mobile-Phone-2-icon.png",
+    emailIcon: "http://static.wixstatic.com/media/d822a6_af29afe70e1a4e9891f94a627914b6ec.png"
 }];
 
 let skills = [
