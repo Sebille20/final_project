@@ -8,7 +8,7 @@ const port = 3000;
 //app.use(express.static(path.join(__dirname, 'public')));
 
 // Use CORS with default settings to allow cross-origin requests
-app.use(cors());
+app.use(cors({origin: 'https://alice-portfolio.onrender.com' }));
 
 // Sample data (replace with actual data)
 let personalInfo = [{
