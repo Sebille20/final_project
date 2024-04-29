@@ -11,10 +11,10 @@ const port = 3000;
 app.use(cors());
 
 // Sample data (replace with actual data)
-let personalInfo = [{
+let resumeData = {
+  personalInfo: {
     name: "Alice Optina",
     birthDate: "1998-06-21",
-    gender: "Female",
     contactNo: "09951405048",
     address: "Mabolo Cebu City",
     objective: "To be able chuchu",
@@ -23,56 +23,29 @@ let personalInfo = [{
     objectiveIcon: "https://cdn4.iconfinder.com/data/icons/eldorado-user/40/user-128.png",
     phoneIcon: "http://icons.iconarchive.com/icons/icons8/android/512/Mobile-Phone-2-icon.png",
     emailIcon: "http://static.wixstatic.com/media/d822a6_af29afe70e1a4e9891f94a627914b6ec.png",
-    homeIcon: "https://icons.iconarchive.com/icons/rafiqul-hassan/blogger/512/Home-icon.png"
-}];
-
-let skills = [
+    homeIcon: "https://icons.iconarchive.com/icons/rafiqul-hassan/blogger/512/Home-icon.png",
+  },
+  skills: [
     { description: "Web Development", expertiseLevel: "Advanced" },
-    { description: "Data Analysis", expertiseLevel: "Intermediate" }
-];
-
-let workExperience = [
-    { companyName: "Wa El Company", designation: "Tig hakot tubig", details: "Developed web applications", year: "2018-2020" }
-];
-
-let education = [
+    { description: "Data Analysis", expertiseLevel: "Intermediate" },
+  ],
+  workExperience: [
+    { companyName: "Wa El Company", designation: "Tig hakot tubig", details: "Developed web applications", year: "2018-2020" },
+  ],
+  education: [
     { school: "uspf", year: "2011", address: "Bohol" },
     { school: "Immaculata", year: "2015", address: "Bohol" },
-    { school: "University of Southern Philippines Foundation", year: "present", address: "Cebu" }
-];
-
-let personalReferences = [
-    { name: "Jane ", relationship: "Colleague", contactNumber: "987-654-3210" }
-];
+    { school: "University of Southern Philippines Foundation", year: "present", address: "Cebu" },
+  ],
+  personalReferences: [
+    { name: "Jane", relationship: "Colleague", contactNumber: "987-654-3210" },
+  ],
+};
 
 // Endpoint for personal information
-app.get('/personal-info', (req, res) => {
-    res.json(personalInfo);
+app.get('/resume-data', (req, res) => {
+    res.json(resumeData);
 });
-
-// Endpoint for skills
-app.get('/skills', (req, res) => {
-    res.json(skills);
-});
-
-// Endpoint for work experience
-app.get('/work-experience', (req, res) => {
-    res.json(workExperience);
-});
-
-// Endpoint for education
-app.get('/education', (req, res) => {
-    res.json(education);
-});
-
-// Endpoint for personal references
-app.get('/personal-references', (req, res) => {
-    res.json(personalReferences);
-});
-
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'index.html'));
-// });
 
 app.listen(port, () => {
     console.log(`Web service listening at http://localhost:${3000}`);
