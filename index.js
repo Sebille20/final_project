@@ -10,7 +10,7 @@ const port = 3000;
 // Use CORS with default settings to allow cross-origin requests
 app.use(cors());
 
-// Sample data (replace with actual data)
+
 let resumeData = {
   personalInfo: {
     name: "Alice Optina",
@@ -33,7 +33,7 @@ let resumeData = {
     { companyName: "Wa El Company", designation: "Tig hakot tubig", details: "Developed web applications", year: "2018-2020" },
   ],
   education: [
-    { school: "uspf", year: "2011", address: "Bohol" },
+    { school: "Baclayon Central", year: "2011", address: "Bohol" },
     { school: "Immaculata", year: "2015", address: "Bohol" },
     { school: "University of Southern Philippines Foundation", year: "present", address: "Cebu" },
   ],
