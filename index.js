@@ -34,7 +34,8 @@ let resumeData = {
   ],
   education: [
     { school: "Baclayon Central", year: "2011", address: "Bohol" },
-    { school: "Immaculata", year: "2015", address: "Bohol" },
+    { school: "Immaculata Highschool", year: "2015", address: "Bohol" },
+    { school: "Lunangan sa Kabaw Highschool", year: "2015", address: "Bohol" },
     { school: "University of Southern Philippines Foundation", year: "present", address: "Cebu" },
   ],
   personalReferences: [
