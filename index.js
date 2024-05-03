@@ -13,11 +13,11 @@ app.use(cors());
 
 let resumeData = {
   personalInfo: {
-    name: "Alice Optina",
-    birthDate: "1998-06-21",
+    name: "Ma. Alice Gay O. Optina",
+    birthDate: "June 21",
     contactNo: "09951405048",
     address: "Mabolo Cebu City",
-    objective: "To be able chuchu",
+    objective: "I am an enthusiastic and dedicated 2nd-year BSIT student with a commitment to pursuing excellence in the field of Information Technology.",
     email: "alice.optina20@gmail.com",
     personalImg: "https://www.nylabone.com/-/media/project/oneweb/nylabone/images/dog101/activities-fun/10-great-small-dog-breeds/maltese-portrait.jpg",
     objectiveIcon: "https://cdn4.iconfinder.com/data/icons/eldorado-user/40/user-128.png",
@@ -33,13 +33,12 @@ let resumeData = {
     { companyName: "Wa El Company", designation: "Tig hakot tubig", details: "Developed web applications", year: "2018-2020" },
   ],
   education: [
-    { school: "Baclayon Central", year: "2011", address: "Bohol" },
-    { school: "Immaculata Highschool", year: "2015", address: "Bohol" },
-    { school: "Lunangan sa Kabaw Highschool", year: "2015", address: "Bohol" },
-    { school: "University of Southern Philippines Foundation", year: "present", address: "Cebu" },
+    { school: "University of Southern Philippines Foundation ", year: "Present", address: "Lahug Cebu City" },
+    { school: "Immaculata High School", year: "2015", address: "Baclayon Bohol" },
+    { school: "Baclayon Central Elementary School", year: "2010-2011", address: "Baclayon Bohol" },
   ],
   personalReferences: [
-    { name: "Jane", relationship: "Colleague", contactNumber: "987-654-3210" },
+    { name: "Jane", relationship: "Colleague", contactNumber: "0999999999" },
   ],
 };
 
