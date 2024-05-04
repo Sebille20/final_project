@@ -19,7 +19,7 @@ let resumeData = {
     address: "Mabolo Cebu City",
     objective: "I am an enthusiastic and dedicated 2nd-year BSIT student with a commitment to pursuing excellence in the field of Information Technology.",
     email: "alice.optina20@gmail.com",
-    personalImg: "https://www.nylabone.com/-/media/project/oneweb/nylabone/images/dog101/activities-fun/10-great-small-dog-breeds/maltese-portrait.jpg",
+    personalImg: "alice.jpg",
     objectiveIcon: "https://cdn4.iconfinder.com/data/icons/eldorado-user/40/user-128.png",
     phoneIcon: "http://icons.iconarchive.com/icons/icons8/android/512/Mobile-Phone-2-icon.png",
     emailIcon: "http://static.wixstatic.com/media/d822a6_af29afe70e1a4e9891f94a627914b6ec.png",
