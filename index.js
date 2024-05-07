@@ -32,7 +32,7 @@ let resumeData = {
   ],
   education: [
     { school: "University of Southern Philippines Foundation ", year: "Present", address: "Lahug Cebu City" },
-    { school: "Immaculata High School", year: "2015", address: "Baclayon Bohol" },
+    { school: "Immaculata High School", year: "2014-2015", address: "Baclayon Bohol" },
     { school: "Baclayon Central Elementary School", year: "2010-2011", address: "Baclayon Bohol" },
   ],
   personalReferences: [
@@ -44,7 +44,7 @@ let resumeData = {
   ],
 
   achievements: [
-    { name: "Dean's Lister", year: "First Year- First and Second Semester"},
+    { name: "Dean's Lister", year: "2022-2023",semester:"1st and 2nd"},
   ],
 
 };
