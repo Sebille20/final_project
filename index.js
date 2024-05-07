@@ -15,8 +15,8 @@ let resumeData = {
   personalInfo: {
     firstname: "Ma. Alice Gay ",
     lastname: "Optina",
-    birthDate: "June 21",
-    contactNo: "09951405048",
+    birthDate: "June 12",
+    contactNo: "055-145-1111",
     address: "Mabolo Cebu City",
     objective: "I am an enthusiastic and dedicated 2nd-year BSIT student with a commitment to pursuing excellence in the field of Information Technology.",
     email: "alice.optina20@gmail.com",
@@ -24,7 +24,8 @@ let resumeData = {
     markerIcon: "https://i.postimg.cc/VL1v2bLL/icon-marker.png",
     phoneIcon: "https://i.postimg.cc/fRC98fcN/icon-phone.png",
     emailIcon: "https://i.postimg.cc/g0GxRXQT/icon-email.png",
-    
+    genderIcon: "https://w7.pngwing.com/pngs/415/583/png-transparent-male-and-female-icons-gender-symbol-female-gender-miscellaneous-text-sign-thumbnail.png",
+    gender: "Female"
   },
   skills: [
     { description: "Teamwork" },
