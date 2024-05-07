@@ -24,7 +24,7 @@ let resumeData = {
     markerIcon: "https://i.postimg.cc/VL1v2bLL/icon-marker.png",
     phoneIcon: "https://i.postimg.cc/fRC98fcN/icon-phone.png",
     emailIcon: "https://i.postimg.cc/g0GxRXQT/icon-email.png",
-    gender: "Female",
+    
   },
   skills: [
     { description: "Teamwork" },
