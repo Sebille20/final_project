@@ -39,6 +39,7 @@ let resumeData = {
   personalReferences: [
     { name: "Jane Chu", relationship: "Colleague", contactNumber: "0999999999" },
     { name: "Kristine", relationship: "Colleague", contactNumber: "0999999999" },
+    { name: "Ikaw", relationship: "Katagay", contactNumber: "099876543" },
   ],
   language: [
     { languagename: "Tagalog" },{ languagename: "English" }
@@ -46,6 +47,7 @@ let resumeData = {
 
   achievements: [
     { name: "Dean's Lister", year: "2022-2023",semester:"1st and 2nd semester"},
+    { name: "Best in Programming", year: "2023-2024",semester:"2nd and 1st semester"},
   ],
 
 };
