@@ -36,7 +36,7 @@ let resumeData = {
     { school: "Baclayon Central Elementary School", year: "2010-2011", address: "Baclayon Bohol" },
   ],
   personalReferences: [
-    { name: "Jane    ", relationship: "Colleague", contactNumber: "0999999999" },
+    { name: "Jane Chu", relationship: "Colleague", contactNumber: "0999999999" },
     { name: "Kristine", relationship: "Colleague", contactNumber: "0999999999" },
   ],
   language: [
