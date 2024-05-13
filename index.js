@@ -43,7 +43,7 @@ let resumeData = {
     { name: "Ikaw", relationship: "Katagay", contactNumber: "099876543" },
   ],
   language: [
-    { languagename: "Tagalog" },{ languagename: "English" }
+    { languagename: "Tagalog" },{ languagename: "English" },{ languagename: "Bisaya" }
   ],
 
   achievements: [
