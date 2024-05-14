@@ -17,7 +17,7 @@ let resumeData = {
     lastname: "Optina",
     birthDate: "June 12",
     contactNo: "055-145-1111",
-    address: "Mabolo Cebu City",
+    address: "Baclayon Bohol",
     objective: "I am an enthusiastic and dedicated 2nd-year BSIT student with a commitment to pursuing excellence in the field of Information Technology.",
     email: "alice.optina20@gmail.com",
     personalImg: "alice2.jpg",
@@ -40,7 +40,7 @@ let resumeData = {
   personalReferences: [
     { name: "Jane Chu", relationship: "Colleague", contactNumber: "0999999999" },
     { name: "Kristine", relationship: "Colleague", contactNumber: "0999999999" },
-    { name: "Ikaw", relationship: "Katagay", contactNumber: "099876543" },
+    
   ],
   language: [
     { languagename: "Tagalog" },{ languagename: "English" },{ languagename: "Bisaya" }
@@ -49,6 +49,7 @@ let resumeData = {
   achievements: [
     { name: "Dean's Lister", year: "2022-2023",semester:"1st and 2nd semester"},
     { name: "Best in Programming", year: "2023-2024",semester:"2nd and 1st semester"},
+    { name: "Best in Math", year: "2025-2026",semester:"1st Semester"},
   ],
 
 };
